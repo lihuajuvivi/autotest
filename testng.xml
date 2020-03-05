@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test suite" verbose="1">
+    <test name="allTestsInAPackage">
+        <!--测试脚本选择一个包-->
+        <packages>
+            <package name="cn.fraudmetrix.testedu"></package>
+        </packages>
+        <!--测试脚本选择一个类-->
+        <!--<classes>-->
+            <!--测试脚本选择一个方法-->
+            <!--<class name="cn.fraudmetrix.testedu.TestDataProviderNotSameClass">-->
+                <!--<methods>-->
+                    <!--<include name="doTestNG"></include>-->
+                    <!--<exclude name="doTestNG1"></exclude>-->
+                    <!--<include name="doTestNG2"></include>-->
+                <!--</methods>-->
+            <!--</class>-->
+
+        <!--</classes>-->
+
+
+    </test>
+</suite>
