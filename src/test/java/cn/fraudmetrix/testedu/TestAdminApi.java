@@ -4,6 +4,8 @@ import cn.fraudmetrix.varys.share.object.response.AdminPartnerVO;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.Map;
+
 public class TestAdminApi extends TestDubboBase{
 
 
@@ -12,8 +14,7 @@ public class TestAdminApi extends TestDubboBase{
         public static Object[][] SetPartnerCode(){
             return new Object[][]{
                     {"vivi"},
-                    {"demo"},
-                    {"pineapple"}
+                    {"NotExistPartnerCode"}
             };
         }
 
